@@ -17,18 +17,18 @@ To combat extensive memory usage and computational slowdowns experienced in past
 **Results**:
 The model demonstrated robust performance across various evaluation metrics. The following are the key results obtained post-evaluation:
 
-'eval_loss': 0.2725694477558136,
-'eval_accuracy': 0.9219653179190751,
-'eval_precision_weighted': 0.9332768443366245,
-'eval_precision_macro': 0.8964210324313951,
-'eval_recall_weighted': 0.9219653179190751,
-'eval_recall_macro': 0.940977432694182,
-'eval_f1_weighted': 0.923649618171909,
-'eval_f1_macro': 0.9146551438125865,
-'eval_runtime': 3.9592,
-'eval_samples_per_second': 87.391,
-'eval_steps_per_second': 2.778,
-'epoch': 15.0
+'eval_loss': 0.2725694477558136<br>
+'eval_accuracy': 0.9219653179190751<br>
+'eval_precision_weighted': 0.9332768443366245<br>
+'eval_precision_macro': 0.8964210324313951<br>
+'eval_recall_weighted': 0.9219653179190751<br>
+'eval_recall_macro': 0.940977432694182<br>
+'eval_f1_weighted': 0.923649618171909<br>
+'eval_f1_macro': 0.9146551438125865<br>
+'eval_runtime': 3.9592<br>
+'eval_samples_per_second': 87.391<br>
+'eval_steps_per_second': 2.778<br>
+'epoch': 15.0<br>
 
 **Points of Consideration**:
 While the model shows high reliability and accuracy in classifying financial news headlines, several considerations are crucial. The labeling process, involving multiple annotators, could introduce biases affecting the reliability of the dataset. Additionally, the specificity of the dataset to OMX Helsinki companies might limit the model's adaptability to diverse financial news sources and broader topics. Finally, the complex nature of transformer models like RoBERTa emphasizes the importance of interpretability in the financial sector to understand model predictions adequately for making informed decisions.
